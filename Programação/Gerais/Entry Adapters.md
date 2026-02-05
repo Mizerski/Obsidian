@@ -6,7 +6,7 @@ A camada de API é o **Adapter de Entrada** (ou _Driving Adapter_). Ela é a int
 
 - O cliente (mundo externo) olha o menu e faz um pedido.
 - O garçom (API) anota o pedido em um formato que a cozinha entende (comanda).
-- O garçom não cozinha; ele apenas traduz o desejo do cliente em uma instrução para o cozinheiro ([[Use Case]]).
+- O garçom não cozinha; ele apenas traduz o desejo do cliente em uma instrução para o cozinheiro ([[Estudos/Programação/Gerais/# Use Case]]).
     
 
 ---
@@ -33,7 +33,7 @@ Na arquitetura moderna, o sistema é "dirigido" (_driven_) por estímulos extern
 
 ## 4. Funcionamento Fora de Frameworks ([[POJO]])
 
-Sem Spring, você usaria **Servlets** ou um simples método `main` para ler entradas do teclado. O princípio é o mesmo: capturar a entrada e chamar o [[Use Case]].
+Sem Spring, você usaria **Servlets** ou um simples método `main` para ler entradas do teclado. O princípio é o mesmo: capturar a entrada e chamar o [[Estudos/Programação/Gerais/# Use Case]].
 
 ```Java
 // Exemplo via Console (CLI) atuando como Entry Adapter
@@ -95,7 +95,7 @@ Eles são classes simples que definem exatamente o que entra e o que sai da API.
 
 ## 7. Por que separar a API do [[Domínio]]?
 
-1. **Versatilidade:** Você pode ter um `WebController` e um `CliController` chamando o **mesmo** [[Use Case]].
+1. **Versatilidade:** Você pode ter um `WebController` e um `CliController` chamando o **mesmo** [[Estudos/Programação/Gerais/# Use Case]].
 2. **Segurança:** Se você usar sua classe de [[Domínio]] ou de Banco diretamente na API, um usuário mal-intencionado pode tentar alterar campos que não deveria (ex: mudar o `id` via JSON).
 3. **Contrato Estável:** Você pode mudar o nome de um campo no Banco de Dados ou no Domínio sem quebrar a API que o seu Front-end consome, pois o DTO da API continua o mesmo.
 
