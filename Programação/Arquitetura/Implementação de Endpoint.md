@@ -56,7 +56,7 @@ public class Cliente {
 }
 ```
 
-### Repository: A Porta de Saída (Port)
+### Repository: As [[Portas]] de Saída (Port)
 
 `domain/repository/ClienteRepository.java` Uma interface que define **o que** o domínio precisa, sem dizer **como** será feito.
 
