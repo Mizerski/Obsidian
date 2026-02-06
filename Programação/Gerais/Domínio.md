@@ -1,4 +1,3 @@
-
 ## 1. Definição 
 
 Domínio é o **núcleo do problema que o sistema resolve**. É onde ficam as **regras de negócio que fazem sentido independentemente de HTTP, banco, framework ou tecnologia**.

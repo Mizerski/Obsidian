@@ -62,7 +62,7 @@ Se o seu instrutor ou um artigo falar "Crie um adaptador de infraestrutura para 
 
 ## Resumo para sua nota
 
-- **Persistence Adapter:** É um adaptador de infraest
-- rutura especializado em armazenamento.
+- **Persistence Adapter:** É um adaptador de infraestrutura
+- Especializado em armazenamento.
 - **[[Infrastructure Adapters]]:** É o termo "guarda-chuva" para qualquer código que traduz lógica de domínio para ferramentas externas.
 - **Localização:** Ambos moram na camada de Infraestrutura.
